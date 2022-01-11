@@ -99,7 +99,7 @@ interRate = function(data, burn_in, N, model_type){
 
       c=c/2
 
-      sigma1=sqrt(rinvgamma(1,(NN / 2-1), c))
+      sigma1=sqrt(nimble::rinvgamma(1,(NN / 2-1), c))
 
       #d1 <- data.frame(i, alpha1, beta1, sigma1)
       #write.table(d1, "cir-mcmc-R.txt", row.names = FALSE,
@@ -244,7 +244,7 @@ interRate = function(data, burn_in, N, model_type){
 
       c=c/2
 
-      sigma1=sqrt(rinvgamma(1,(NN / 2-1), c))
+      sigma1=sqrt(nimble::rinvgamma(1,(NN / 2-1), c))
 
       #d1 <- data.frame(i, alpha1, beta1, sigma1)
       #write.table(d1, "cir-mcmc-R.txt", row.names = FALSE,
@@ -390,7 +390,7 @@ interRate = function(data, burn_in, N, model_type){
 
       c=c/2
 
-      sigma1=sqrt(rinvgamma(1,(NN / 2-1), c))
+      sigma1=sqrt(nimble::rinvgamma(1,(NN / 2-1), c))
 
       #d1 <- data.frame(i, alpha1, beta1, sigma1)
       #write.table(d1, "cir-mcmc-R.txt", row.names = FALSE,
@@ -536,7 +536,7 @@ interRate = function(data, burn_in, N, model_type){
 
       c=c/2
 
-      sigma1=sqrt(rinvgamma(1,(NN / 2-1), c))
+      sigma1=sqrt(nimble::rinvgamma(1,(NN / 2-1), c))
 
       bmin=-10
       bmax=10
